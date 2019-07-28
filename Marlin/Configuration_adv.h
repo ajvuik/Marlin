@@ -32,7 +32,7 @@
  */
 #ifndef CONFIGURATION_ADV_H
 #define CONFIGURATION_ADV_H
-#define CONFIGURATION_ADV_H_VERSION 010109
+#define CONFIGURATION_ADV_H_VERSION 280719
 
 // @section temperature
 
@@ -1108,7 +1108,7 @@
   #define Y_CURRENT          1200
   #define Y_MICROSTEPS        16
 
-  #define Z_CURRENT          1200
+  #define Z_CURRENT          950
   #define Z_MICROSTEPS        16
 
   #define X2_CURRENT         800
@@ -1120,7 +1120,7 @@
   #define Z2_CURRENT         800
   #define Z2_MICROSTEPS       16
 
-  #define E0_CURRENT         1200
+  #define E0_CURRENT         850
   #define E0_MICROSTEPS       16
 
   #define E1_CURRENT         800
