@@ -37,7 +37,7 @@
  */
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
-#define CONFIGURATION_H_VERSION 171018
+#define CONFIGURATION_H_VERSION 280719
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -618,8 +618,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 128, 128, 5000, 1200 }
-
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 128, 128, 5000, 1200 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 64.25, 64.25, 2560, 600}
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
