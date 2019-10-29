@@ -37,7 +37,7 @@
  */
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
-#define CONFIGURATION_H_VERSION 280719
+#define CONFIGURATION_H_VERSION 281019
 
 //===========================================================================
 //============================= Getting Started =============================
